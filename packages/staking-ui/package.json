@@ -51,8 +51,10 @@
   "scripts": {
     "start:local": "env-cmd -f .env.local react-app-rewired start",
     "start:devnet": "env-cmd -f .env.devnet react-app-rewired start",
+    "start:env": "env-cmd -f .env.env react-app-rewired start",
     "build:local": "env-cmd -f .env.local react-scripts build",
-    "build:devnet": "env-cmd -f .env.devnet react-scripts build"
+    "build:devnet": "env-cmd -f .env.devnet react-scripts build",
+    "build:env": "env-cmd -f .env.env react-scripts build"
   },
   "browserslist": {
     "production": [
