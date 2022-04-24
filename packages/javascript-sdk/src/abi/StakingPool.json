@@ -3,7 +3,7 @@
     "inputs": [
       {
         "internalType": "bytes",
-        "name": "ctor",
+        "name": "constructorParams",
         "type": "bytes"
       }
     ],
@@ -145,19 +145,6 @@
         "internalType": "contract IStakingPool",
         "name": "",
         "type": "address"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "getSystemContracts",
-    "outputs": [
-      {
-        "internalType": "address[]",
-        "name": "",
-        "type": "address[]"
       }
     ],
     "stateMutability": "view",

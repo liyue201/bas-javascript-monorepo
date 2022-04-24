@@ -43,6 +43,29 @@
     "type": "function"
   },
   {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "systemContractAddress",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes",
+        "name": "newByteCode",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bytes",
+        "name": "applyFunction",
+        "type": "bytes"
+      }
+    ],
+    "name": "deploySystemSmartContract",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
     "inputs": [],
     "name": "getChainConfig",
     "outputs": [
